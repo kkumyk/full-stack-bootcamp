@@ -10,10 +10,42 @@
 
 <hr>
 
-### Block Level Element
+### Block-Level Element
 - HTML elements are usually either block-level elements or inline elements.
 - A block-level element occupies the entire space of its parent element (container), thereby creating a block.
 - Browsers typically display the block-level element with a new line both before and after the element. They have a rectangular structure. By default, these elements will span the entire width of its parent element, so it won't allow any other element to occupy the same horizontal space as itself.
+
+<hr>
+- block elements take the whole horizontal space of its parent element (container), stretching from left ot right and creating a block;
+- browsers display a block-level element with a newline both before and after the element, like a stack of boxes;
+- use blok-level elements to control the flow of the content on a document;
+- div is one of the most used block-level elements;
+- also, p, h1, ol, ul and li elements;
+- by default we can place block-level elements next to each other;
+- cna have set properties for the size (width and height)
+
+### Inline Elements
+- HTML elements that only occupy as much space as their content;
+- allows for the side-by-side arrangement of elements;
+- use to create a horizontal flow of page elements;
+- span, a HTML links, button and input tag;
+
+### Inline-Block Elements
+- the same size as their content and we can place them next to each other and other inline elements;
+- can have size properties;
+- often used ot create grids;
+
+### Flexbox
+#### Parent Properties
+- layout tool that allows to arrange things in rows or columns, reverse or rearrange the order of our items without needing to change the HTML code and it gives us control over whether we want out elements to wrap into multiple rows or columns;
+- use flexbox parent properties to tell child elements how to behave;
+
+#### Child Properties
+- if we want specific children to behave differently, we can do it with child properties flex-basis, align-self and order;
+- flex-grow: use to deal with any surplus space in the parent;
+- flex-grow: if there is surplus space in the parent, flex-grow sets how much of this space an element may use compared with its siblings;
+- flex-shrink: tells elements how much they should shrink when there is not enough space in the parent; use to affect the size of one or more child elements;
+- flex-shrink can be seen as the reverse of flex-frow; these two properties can be set on the same element, but they will never be active at the same time, as flex-grow affects the element only if there is space left over in the parent, while flex-shrink affects the element only if there is not enough space in the parent;
 
 ### The span Element
 - generic inline container / inline container

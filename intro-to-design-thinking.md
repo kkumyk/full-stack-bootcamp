@@ -57,12 +57,6 @@ R - reverse
 
 Goals, needs and mental models = the real hidden story
 
-### Challenge
-Feeling empowered: what if you could generate a cheat sheet for your next big assignment?
-- What is the heart of the challenge?
-- How are you going to get multiple viewpoints?
-What are the key frustrations, motivations and goals?
-
 ### Facing change and making good decisions
 VUCA challenges - volatile, uncertain, complex, and ambiguous
 

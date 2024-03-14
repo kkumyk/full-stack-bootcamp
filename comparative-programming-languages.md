@@ -30,7 +30,30 @@
 
 - <strong>important</strong> to remember that data that does not exists but does not have any explicit type is <strong>still data</strong>, and therefore it is given a type of either <strong>None</strong>, <strong>null</strong> or <strong>undefined</strong>; 
 
-![null undefined None](null+undefined+none.png)
+![null undefined None](assets/null+undefined+none.png)
+
+### Truthy & Falsey Values
+
+The truth of a piece of data might be whether it's positive or negative, whether it has any content, or whether it exists at all.
+
+<th>
+
+
+<caption>
+<strong>Falsy Values Comparison in JS and Python</strong>
+</caption>
+
+| Python  |JavaScript   |
+|---|---|
+|empty sequences (lists, tuples, strings, dics, sets)   |false   |
+|zero in every numeric type   |undefined   |
+|None   |null   |
+|False   |empty string   |
+|   |not a number   |
+|   |zero   |
+
+
+
 
 
 <hr>

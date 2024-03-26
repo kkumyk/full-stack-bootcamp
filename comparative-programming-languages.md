@@ -32,7 +32,7 @@
 
 ![null undefined None](assets/null+undefined+none.png)
 
-### Truthy & Falsey Values
+### Truthy & Falsy Values
 
 The truth of a piece of data might be whether it's positive or negative, whether it has any content, or whether it exists at all.
 
